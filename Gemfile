@@ -43,3 +43,4 @@ gem 'dotenv-rails', :groups => [:development, :test]
 gem 'kaminari', '~> 0.17.0'
 gem 'rails_12factor'
 gem 'newrelic_rpm', '~> 3.15', '>= 3.15.0.314'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
