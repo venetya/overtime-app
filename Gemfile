@@ -35,7 +35,7 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem "gritter", "1.2.0"
 gem 'administrate', github: 'greetpoint/administrate', branch: 'rails5'
-gem 'bourbon'
+gem 'bourbon', '~> 5.0.0.beta.5'
 gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.4'
 gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
