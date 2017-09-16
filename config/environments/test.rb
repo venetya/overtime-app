@@ -39,4 +39,10 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # the following block suppresses the ActiveRecord debugging msgs
+  # when running rspec --format documentation
+  config.after_initialize do
+    ActiveRecord::Base.logger = nil
+  end
 end
